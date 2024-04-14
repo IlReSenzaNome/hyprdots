@@ -1,0 +1,4 @@
+/home/ilresenzanome/.emacs.d/elpa/vterm-20240325.1551/build/CMakeFiles/vterm-module.dir
+/home/ilresenzanome/.emacs.d/elpa/vterm-20240325.1551/build/CMakeFiles/run.dir
+/home/ilresenzanome/.emacs.d/elpa/vterm-20240325.1551/build/CMakeFiles/edit_cache.dir
+/home/ilresenzanome/.emacs.d/elpa/vterm-20240325.1551/build/CMakeFiles/rebuild_cache.dir
