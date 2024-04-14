@@ -1,0 +1,132 @@
+{
+  "layer": "top",
+    "height": 54,
+    "modules-left": ["custom/arch", "hyprland/workspaces" , "memory"],
+    "modules-center": ["custom/playerctl","mpd"],
+    "modules-right": ["backlight","pulseaudio", "battery", "network","clock", "custom/power-menu"],
+    "custom/arch": {
+      "format": "  ",
+      "tooltip": false,
+      "on-click": "wofi --show drun"
+    }, 
+    "hyprland/workspaces": {
+      "format": "{icon}",
+      "on-click": "activate",
+      "all-outputs": true,
+      "persistent-workspaces" :{
+          "1": [],
+	 		    "2": [],
+	 		    "3": [],
+	 		    "4": [],
+	 		    "5": [],
+	 		    "6": [],
+	 		    "7": [],
+	 		    "8": [],
+	 		    "9": [],
+	 		    "10": []
+        },
+        "format-icons": {
+                "active": "󰮯",
+                "default": "󰊠"
+        }
+    },
+    "clock": {
+      "format": "<span color='#b69bf1'> </span>{:%H:%M}",
+      "format-alt": "<span foreground='#b69bf1'> </span><span>{:%I:%M %p %a %d}</span>",
+      "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    }, 
+    "backlight": {
+      "device": "amdgpu_b10",
+      "tooltip": false,
+      "format": "<span color='#d9b172'>{icon} </span> {percent}%",
+      "format-icons": ["", "", "", "", "", "", "", "", ""]
+    },
+    "custom/sound": {
+      "format": "<span color='#5d7'> </span>{}",
+      "exec": "custom-alsa.sh"
+    },
+    "network": {
+      "interface": "wlan0",
+      "format": "{ifname}",
+      "format-wifi": "<span color='#90cdfa'> </span>{essid}",
+      "format-ethernet": "{ipaddr}/{cidr} ",
+      "format-disconnected": "<span color='#ff005f'>󰖪 </span>No Network",
+      "on-click": "kitty nmtui"
+    },
+    "battery": {
+      "format": "<span color='#a8cd76'>{icon}</span> {capacity}%",
+      "format-icons": ["󱊡", "󱊢", "󱊣"],
+      "format-charging": "<span color='#a8cd76'></span> {capacity}%"
+    },
+    "pulseaudio": {
+      "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+      "format": "<span color='#F21905'></span> {volume}%",
+      "format-muted": "<span color='#F21905'>󰝟 </span>",
+      "format-icons": {
+       "headphone": "",
+       "hands-free": "",
+       "headset": "",
+       "phone": "",
+       "portable": "",
+       "car": "",
+       "default": [" ", "墳"]
+    },
+    "on-click-right" : "pavucontrol"
+    },
+    "memory": {
+    "format": "<span foreground='#d92929'>{icon}</span> {}%",
+    "on-click": "kitty htop",
+    "format-icons": ["󰍛"]
+    },
+    "tray": {
+    "icon-size": 20,
+    "reverse-direction": true,
+    "spacing": 6
+    },
+    "custom/power-menu": {
+      "format": " ⏻ ",
+      "tooltip": false,
+      "on-click": "wlogout"
+    },
+    "custom/playerctl": {
+     "format": "{icon}  <span>{}</span>",
+     "return-type": "json",
+     "max-length": 55,
+     "exec": "playerctl -a metadata --format '{\"text\": \"  {{markup_escape(title)}}\", \"tooltip\": \"{{playerName}} : {{markup_escape(title)}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F",
+     "on-click-middle": "playerctl previous",
+     "on-click": "playerctl play-pause",
+     "on-click-right": "playerctl next",
+     "format-icons": {
+       "Paused": "<span foreground='#bb9af7'></span>",
+       "Playing": "<span foreground='#bb9af7'></span>"
+     }
+    }, 
+    "custom/mpd-status": {
+    "exec": "./scripts/mpd_status.sh",
+    "return-type": "json",
+    "interval": 1,
+    "visible": false,
+    "format": "<span foreground='#FF99FF'> </span> {title}",
+    "format-disconnected": "",
+    "max-length": 25,
+    "on-click": "mpc --quiet toggle",
+    "on-click-middle": "kitty --class='ncmpcpp' ncmpcpp",
+    "on-click-right": "mpc update; mpc ls | mpc add",
+    "format-icons": {
+        "playing": "<span foreground='#bb9af7'></span>",
+        "paused": "<span foreground='#bb9af7'></span>",
+        "stopped": "<span foreground='#bb9af7'></span>"
+    },
+    "format-values": {
+        "state": "text"
+    },
+    "custom-command": "mpc | grep -q playing",
+    "visible": false,
+    "on-scroll-down": "mpc --quiet next",
+    "on-scroll-up": "mpc --quiet prev",
+    "smooth-scrolling-threshold": 5,
+    "tooltip": "{title} - {artist} ({elapsedTime:%M:%S}/{totalTime:%H:%M:%S})"
+}
+
+}
+
