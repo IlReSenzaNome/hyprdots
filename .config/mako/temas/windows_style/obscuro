@@ -1,0 +1,22 @@
+font=SF Compact Display SemiBold 9
+
+layer=overlay
+anchor=bottom-right
+background-color=#0f0f0fee
+text-color=#dddddd
+width=260
+height=180
+padding=10
+margin=5
+progress-color= source #60606080
+icon-path=~/.icons
+max-icon-size=80
+
+border-size=1
+border-radius=10
+border-color=#202020
+
+default-timeout=5000
+
+[urgency=high]
+ignore-timeout=1
