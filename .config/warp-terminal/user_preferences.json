@@ -1,0 +1,27 @@
+{
+  "prefs": {
+    "ChangelogVersions": "{\"v0.2024.03.19.08.01.stable_01\":true,\"v0.2024.03.26.08.02.stable_02\":true,\"v0.2024.04.02.08.02.stable_01\":true,\"v0.2024.04.09.08.01.stable_01\":true}",
+    "ExperimentId": "4775ad2a-80be-43ac-840a-c665ee2eaa16",
+    "FontSize": "13.0",
+    "Shortcuts": "true",
+    "ReceivedReferralTheme": "\"Active\"",
+    "SystemTheme": "false",
+    "ShowWarningBeforeQuitting": "false",
+    "WelcomeTipsFeaturesUsed": "[{\"Action\":\"AiCommandSearch\"},{\"Action\":\"SplitPane\"},{\"Action\":\"ThemePicker\"},{\"Hint\":\"BlockAction\"},{\"Hint\":\"CreateBlock\"},{\"Action\":\"CommandPalette\"},{\"Action\":\"CommandSearch\"},{\"Action\":\"WarpAI\"},{\"Hint\":\"BlockSelect\"}]",
+    "OverrideOpacity": "33",
+    "FontName": "\"JetBrainsMono Nerd Font\"",
+    "WelcomeTipsCompleted": "true",
+    "WorkflowsBoxOpen": "true",
+    "AutosuggestionAcceptedCount": "2",
+    "NotebookFontSize": "14.0",
+    "HasAutoOpenedWelcomeFolder": "true",
+    "AIAssistantRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":1,\"next_refresh_time\":\"2024-04-14T22:57:03.556574539Z\"}",
+    "file_manager_command": "dolphin",
+    "LaunchNotebookShown": "true",
+    "AliasExpansionBannerSeen": "true",
+    "SelectedSystemThemes": "{\"light\":\"Light\",\"dark\":\"GruvboxDark\"}",
+    "HonorPS1": "true",
+    "Notifications": "{\"mode\":\"Enabled\",\"is_long_running_enabled\":true,\"long_running_threshold\":{\"secs\":30,\"nanos\":0},\"is_password_prompt_enabled\":true}",
+    "Theme": "\"Dark\""
+  }
+}
