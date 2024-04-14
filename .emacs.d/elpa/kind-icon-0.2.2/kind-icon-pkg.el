@@ -1,2 +1,0 @@
-;; Generated package description from kind-icon.el  -*- no-byte-compile: t -*-
-(define-package "kind-icon" "0.2.2" "Completion kind icons" '((emacs "27.1") (svg-lib "0.2.8")) :commit "d8e73fea45cba968de0deed4b7985f5fdaafadfe" :authors '(("J.D. Smith" . "jdtsmith@gmail.com")) :maintainer '("J.D. Smith" . "jdtsmith@gmail.com") :keywords '("completion" "convenience") :url "https://github.com/jdtsmith/kind-icon")
