@@ -1,6 +1,11 @@
 <h1 align="center">Hyprland on ArchLinux</h1>
 
 <div align="center">
+    <h3> IlReSenzaNome hypr Files 📁</h3>
+    <img src="https://readme-typing-svg.demolab.com?font=Iosevka+Nerd+Font&weight=900&pause=1000&color=6791C9&background=0C0E0F00&center=true&vCenter=true&width=435&lines=A+place++I+store+my+Aesthetic+Customizations" />
+</div>
+
+<div align="center">
 <img src="https://img.shields.io/github/last-commit/IlReSenzaNome/hyprdots?style=for-the-badge&logo=github&color=a6da95&logoColor=D9E0EE&labelColor=302D41"/>
 <img src="https://img.shields.io/github/repo-size/IlReSenzaNome/hyprdots?style=for-the-badge&logo=dropbox&color=7dc4e4&logoColor=D9E0EE&labelColor=302D41"/>
 <img src="https://img.shields.io/github/license/IlReSenzaNome/hyprdots?style=for-the-badge&logo=powerpages&color=cba6f7&logoColor=D9E0EE&labelColor=302D41"/>
