@@ -24,8 +24,6 @@
 
 ## Video
 
-https://github.com/IlReSenzaNome/hyprdots/assets/110791801/12eb9d58-150a-4d2f-abb7-b96a54b9814a
-
 <br />
 
 ## Overview
@@ -45,10 +43,11 @@ https://github.com/IlReSenzaNome/hyprdots/assets/110791801/12eb9d58-150a-4d2f-ab
 | **System Resource Monitor** |                                                [bottom](https://github.com/ClementTsang/bottom)                                                 |
 |      **File Manager**       |                             [Ranger](https://github.com/ranger/ranger), [PCManFM](https://github.com/lxde/pcmanfm)                              |
 |       **lockscreen**        |                                         [hyprlock](https://wiki.hyprland.org/Hypr-Ecosystem/hyprlock/)                                          |
+|          **shell**          |                                                           [zsh](https://www.zsh.org)                                                            |
 |      **Music Player**       | [mpd](https://github.com/MusicPlayerDaemon/MPD), [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp), [mpc](https://github.com/MusicPlayerDaemon/mpc) |
 |      **Media Player**       |                                            [mpv](https://wiki.hyprland.org/Hypr-Ecosystem/hyprlock/)                                            |
 |       **Text Editor**       |                                                   [Neovim](https://github.com/neovim/neovim)                                                    |
-|            Fonts            |                                              [Nerd fonts](https://github.com/ryanoasis/nerd-fonts)                                              |
+|          **Fonts**          |                                              [Nerd fonts](https://github.com/ryanoasis/nerd-fonts)                                              |
 |           **imv**           |                                                        [imv](https://sr.ht/~exec64/imv/)                                                        |
 |       **Web Browser**       |                                                [brave](https://aur.archlinux.org/packages/brave)                                                |
 |   **Screenshot Software**   |             [grimshot](https://github.com/swaywm/sway/blob/master/contrib/grimshot),[grimblast](https://github.com/hyprwm/contrib)              |
@@ -61,7 +60,7 @@ https://github.com/IlReSenzaNome/hyprdots/assets/110791801/12eb9d58-150a-4d2f-ab
 ## Special thanks
 
 - https://github.com/hyprwm/Hyprland - For an amazing WM
-- https://github.com/eldermf/bspwm-hyprland - For the inspiration
 - https://github.com/Ruixi-rebirth/nixos-config - Pretty neofetch config
 - https://github.com/iamverysimp1e/dots - Glassmorphism effect
-- https://github.com/rxyhn/dotfiles
+- https://github.com/1amSimp1e/dots/
+- https://github.com/nawfalmrouyan/hyprland
