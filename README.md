@@ -15,10 +15,9 @@
 </div>
 
 ## 🌟 Preview
+![workspaces](https://github.com/IlReSenzaNome/hyprdots/assets/110791801/94021b92-2758-4646-a0d4-d0b9824ffefd)
 
-[![Workspaces](https://i.postimg.cc/gJrk3Cwh/Screenshot-2024-04-19-16-36-22.png)](https://postimg.cc/xJD22F3j)
-
-[![window.png](https://i.postimg.cc/66b4kVJW/window.png)](https://postimg.cc/nM7L7Dhg)
+![window](https://github.com/IlReSenzaNome/hyprdots/assets/110791801/ef7ce291-6975-4652-bf62-8b3759f033e0)
 
 <br />
 
