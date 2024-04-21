@@ -79,11 +79,11 @@ The installer only works for **ARCH** Linux, and based distros.
 - **First download the installer**
 
 ```sh
-curl https://raw.githubusercontent.com/IlReSenzaNome/hyprdots/master/intall.sh -o $HOME/install.sh
+curl https://raw.githubusercontent.com/IlReSenzaNome/hyprdots/main/install.sh -o $HOME/install.sh
 
 # Maybe you want a short url??
 
-curl -L https://is.gd/IlReSenzaNome_hyprdots -o $HOME/install.sh
+curl -L https://is.gd/kd8B6p -o $HOME/install.sh
 ```
 
 - **Now give it execute permissions**
