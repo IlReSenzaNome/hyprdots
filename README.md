@@ -22,6 +22,10 @@
 
 <br />
 
+## Video
+
+<br />
+
 ## Overview
 
 Hyprland is a dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks.
