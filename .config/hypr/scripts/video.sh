@@ -1,11 +1,18 @@
 #!/bin/bash
 
-# Obtener la fecha y hora actual en un formato legible
-timestamp=$(date +"%Y-%m-%d_%H-%M-%S")
+# Rutas de salida para el video y el audio
+VIDEO_FILE="output_video.mp4"
+AUDIO_FILE="output_audio.wav"
 
-# Definir la ruta completa del archivo de video con el nombre basado en la fecha y hora
-video_dir="$HOME/Videos"
-video_path="$video_dir/screen_$timestamp.mp4"
+# Inicia la grabación de video en segundo plano
+wf-recorder -f "$VIDEO_FILE" &
 
-# Ejecutar wf-recorder con la ruta del archivo de video
-wf-recorder -f "$video_path"
+# Guarda el PID del proceso de wf-recorder
+WF_RECORDER_PID=$!
+
+# Inicia la grabación de audio en segundo plano (usando parecord para PulseAudio o pw-record para PipeWire)
+# Si estás usando PipeWire, cambia 'parecord' por 'pw-record'
+parecord "$AUDIO_FILE" &
+
+# Guarda el PID del proceso de parecord
+PARECORD_PID=$!
