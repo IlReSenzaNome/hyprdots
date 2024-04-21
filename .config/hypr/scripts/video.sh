@@ -25,6 +25,7 @@ function stop_recording() {
         if ps -p $VIDEO_PID > /dev/null; then
             kill $VIDEO_PID
         fi
+        rm "$VIDEO_PID_FILE"
     fi
 
     # Detener la grabación de audio del escritorio
@@ -33,6 +34,7 @@ function stop_recording() {
         if ps -p $AUDIO_PID > /dev/null; then
             kill $AUDIO_PID
         fi
+        rm "$AUDIO_PID_FILE"
     fi
 
     # Esperar un momento después de detener la grabación
@@ -48,17 +50,17 @@ function stop_recording() {
     ffmpeg -i "$VIDEO_FILE" -i "$DESKTOP_AUDIO_FILE" -c:v copy -c:a aac -strict experimental "$COMBINED_FILE"
 
     # Mover el archivo combinado a la carpeta de videos
-    mkdir -p ~/videos
-    mv "$COMBINED_FILE" ~/videos/
+    mkdir -p ~/Videos
+    mv "$COMBINED_FILE" ~/Videos/
 
     # Eliminar los archivos de video y audio originales
     rm "$VIDEO_FILE" "$DESKTOP_AUDIO_FILE"
 
-    echo "Grabación detenida. Archivo combinado guardado en ~/videos/$COMBINED_FILE"
+    echo "Grabación detenida. Archivo combinado guardado en ~/Videos/$COMBINED_FILE"
 }
 
 # Verificar si la grabación está en curso o no
-if [ -f "$VIDEO_PID_FILE" ] && [ -f "$AUDIO_PID_FILE" ]; then
+if [ -f "$VIDEO_PID_FILE" ] || [ -f "$AUDIO_PID_FILE" ]; then
     stop_recording
 else
     start_recording
