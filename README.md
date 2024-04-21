@@ -15,6 +15,7 @@
 </div>
 
 ## 🌟 Preview
+
 ![workspaces](https://github.com/IlReSenzaNome/hyprdots/assets/110791801/94021b92-2758-4646-a0d4-d0b9824ffefd)
 
 ![window](https://github.com/IlReSenzaNome/hyprdots/assets/110791801/ef7ce291-6975-4652-bf62-8b3759f033e0)
@@ -29,20 +30,31 @@ https://github.com/IlReSenzaNome/hyprdots/assets/110791801/12eb9d58-150a-4d2f-ab
 
 ## Overview
 
-Hyprland is a dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks.
+> [!NOTE]
+> Hyprland is a dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks.
 
-|      Label       |     Application     |
-| :--------------: | :-----------------: |
-| Operating System |      ArchLinux      |
-|  Window Manager  |      Hyprland       |
-|    Status Bar    | Waybar-hyprland-git |
-|     Launcher     |        Wofi         |
-|  Notifications   |        Mako         |
-|     Terminal     |        warp         |
-|   Web Browser    |        brave        |
-|      Fonts       | JetBrains Nerd Font |
-|                  |  Symbols Nerd Font  |
-|                  |   Iosevka Medium    |
+|                             |                                                                    ArchLinux                                                                    |
+| :-------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
+|     **Window Manager**      |                                                        [Hyprland](https://hyprland.org)                                                         |
+|    **Terminal Emulator**    |                                                          [warp](https://www.warp.dev)                                                           |
+|           **Bar**           |                                            [Waybar-hyprland-git](https://github.com/Alexays/Waybar)                                             |
+|  **Application Launcher**   |                                                    [Wofi](https://github.com/chmouel/mounch)                                                    |
+|   **Notification Daemon**   |                                                    [Mako](https://github.com/emersion/mako)                                                     |
+|     **Display Manager**     |                                                                None(TTY1 login)                                                                 |
+| **Network Management tool** |                                                  [NetworkManager](https://networkmanager.dev/)                                                  |
+| **System Resource Monitor** |                                                [bottom](https://github.com/ClementTsang/bottom)                                                 |
+|      **File Manager**       |                             [Ranger](https://github.com/ranger/ranger), [PCManFM](https://github.com/lxde/pcmanfm)                              |
+|       **lockscreen**        |                                         [hyprlock](https://wiki.hyprland.org/Hypr-Ecosystem/hyprlock/)                                          |
+|      **Music Player**       | [mpd](https://github.com/MusicPlayerDaemon/MPD), [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp), [mpc](https://github.com/MusicPlayerDaemon/mpc) |
+|      **Media Player**       |                                            [mpv](https://wiki.hyprland.org/Hypr-Ecosystem/hyprlock/)                                            |
+|       **Text Editor**       |                                                   [Neovim](https://github.com/neovim/neovim)                                                    |
+|            Fonts            |                                              [Nerd fonts](https://github.com/ryanoasis/nerd-fonts)                                              |
+|           **imv**           |                                                        [imv](https://sr.ht/~exec64/imv/)                                                        |
+|       **Web Browser**       |                                                [brave](https://aur.archlinux.org/packages/brave)                                                |
+|   **Screenshot Software**   |             [grimshot](https://github.com/swaywm/sway/blob/master/contrib/grimshot),[grimblast](https://github.com/hyprwm/contrib)              |
+|    **Screen Recording**     |                                             [wf-recorder](https://github.com/ammen99/wf-recorder),                                              |
+|        **Clipboard**        |                                             [wl-clipboard](https://github.com/bugaevc/wl-clipboard)                                             |
+|      **Color Picker**       |                                               [hyprpicker](https://github.com/hyprwm/hyprpicker)                                                |
 
 <br />
 
