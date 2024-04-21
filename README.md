@@ -57,6 +57,49 @@
 
 <br />
 
+## Very useful keybindings to know...
+
+| Keys                                                                   | Action              |
+| :--------------------------------------------------------------------- | :------------------ |
+| <kbd>super</kbd> + <kbd>Enter</kbd><br>                                | Open a terminal<br> |
+| <kbd>Print</kbd>                                                       | Takes screenshot.   |
+| <kbd>ctrl</kbd> + <kbd>super</kbd> + <kbd>alt</kbd> + <kbd>X</kbd><br> | Power off computer  |
+
+<br />
+
+## Install
+
+> [!CAUTION]
+> This dotfiles are configured at 1366X76 resolution with 96 DPI and 1 monitor. Some stuff might break on lower or higher resolutions, but still work
+
+The installer only works for **ARCH** Linux, and based distros.
+
+<b>Open a terminal in HOME</b>
+
+- **First download the installer**
+
+```sh
+curl https://raw.githubusercontent.com/IlReSenzaNome/hyprdots/master/intall.sh -o $HOME/install.sh
+
+# Maybe you want a short url??
+
+curl -L https://is.gd/IlReSenzaNome_hyprdots -o $HOME/install.sh
+```
+
+- **Now give it execute permissions**
+
+```sh
+chmod +x install.sh
+```
+
+- **Finally run the installer**
+
+```sh
+./install.sh
+```
+
+<br />
+
 ## Special thanks
 
 - https://github.com/hyprwm/Hyprland - For an amazing WM
