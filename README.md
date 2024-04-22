@@ -24,6 +24,8 @@
 
 ## Video
 
+https://github.com/IlReSenzaNome/hyprdots/assets/110791801/334cb06b-0256-4acb-8bb3-46952182c79e
+
 <br />
 
 ## Overview
