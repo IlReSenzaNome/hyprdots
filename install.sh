@@ -8,4 +8,5 @@
 #   Script to install my hyprdots
 #   Author: Alexis
 #   url: https://github.com/IlReSenzaNome
+echo "Quires instalar los dotfiles"
 
